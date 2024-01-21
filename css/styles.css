@@ -134,12 +134,12 @@ color: var(--IRIS, #4D5AE5);
 
 .hero-title {
     color: var(--WHITE, #FFF);
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    text-align: center;
 }
 
 .hero-button {
@@ -165,11 +165,28 @@ color: var(--IRIS, #4D5AE5);
 
 .advantages {
     background-color: #FFFFFF;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .advantages-list {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px; 
 }
 
 .advantages-subtitle {
@@ -178,6 +195,8 @@ color: var(--IRIS, #4D5AE5);
         font-weight: 500;
         line-height: 1.20;
         letter-spacing: 0.02em;
+        width: calc((100% - 72px) / 4);
+        margin-bottom: 8px;
 }
 
 .advantages-text {
