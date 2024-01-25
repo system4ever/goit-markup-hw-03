@@ -411,24 +411,44 @@ header {
 
 
 .footer {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-link {
     color: #4d5ae5;
-    font-family: 'Raleway', sans-serif;
+    margin-right: 76px;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
-    color: var(--CLOUD, #F4F4FD);
+    color: #f4f4fd;
+    font-family: Roboto;
     font-size: 16px;
-    line-height: 1.50;
+    font-weight: 400;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.footer-container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+.logo-container {
+    margin-right: 120px;
 }
 
 .studio-black-footer {
