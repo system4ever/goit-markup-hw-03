@@ -205,6 +205,7 @@ header {
         min-width: 169px;
         height: 56px;
         border: none;
+        border-radius: 4px;
 }
 
 .hero-button:hover,
